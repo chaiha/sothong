@@ -10,7 +10,7 @@ class AlertsController extends \BaseController {
 	 */
 	public function index()
 	{
-		//
+		return View::make('alerts.index');
 	}
 
 	/**

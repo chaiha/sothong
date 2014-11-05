@@ -10,7 +10,7 @@ class CustomersController extends \BaseController {
 	 */
 	public function index()
 	{
-		//
+		return View::make('customers.index');
 	}
 
 	/**

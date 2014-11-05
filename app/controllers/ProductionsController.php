@@ -10,7 +10,7 @@ class ProductionsController extends \BaseController {
 	 */
 	public function index()
 	{
-		//
+		return View::make('productions.index');
 	}
 
 	/**

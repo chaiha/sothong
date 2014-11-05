@@ -22,10 +22,7 @@ Route::get('login', function(){
 
 // สต๊อกสินค้า
 Route::resource('stock', 'StocksController',
-				array('only'=>array('index','store')));
-// เพิ่มสินค้า
-Route::resource('add', 'AddsController',
-				array('only'=>array('index','store')));
+				array('only'=>array('index','create','store')));
 // เบิก
 Route::resource('withdraw', 'WithdrawsController',
 				array('only'=>array('index','store')));

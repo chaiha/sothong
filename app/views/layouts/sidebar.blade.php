@@ -5,28 +5,28 @@
 		<!-- BEGIN SIDEBAR MENU -->
 		<ul class="page-sidebar-menu page-sidebar-menu-hover-submenu " data-auto-scroll="true" data-slide-speed="200">
 			<li class="start active ">
-				<a href="stock">
+				<a href="{{url('stock')}}">
 				<i class="icon-home"></i>
 				<span class="title">สต๊อกสินค้า</span>
 				<span class="selected"></span>
 				</a>
 			</li>
 			<li>
-				<a href="add">
+				<a href="{{url('stock/create')}}">
 				<i class="icon-home"></i>
 				<span class="title">เพิ่มสต๊อก</span>
 				<span class="selected"></span>
 				</a>
 			</li>			
 			<li>
-				<a href="withdraw">
+				<a href="{{url('withdraw')}}">
 				<i class="icon-basket"></i>
 				<span class="title">เบิก</span>
 				<span class="arrow open"></span>
 				</a>
 			</li>
 			<li>
-				<a href="sell">
+				<a href="{{url('sell')}}">
 				<i class="icon-handbag"></i>
 				<span class="title">ขาย</span>
 				<span class="arrow "></span>
@@ -34,7 +34,7 @@
 			</li>
 			<!-- BEGIN FRONTEND THEME LINKS -->
 			<li>
-				<a href="return">
+				<a href="{{url('return')}}">
 				<i class="icon-action-undo"></i>
 				<span class="title">คืน</span>
 				<span class="arrow">
@@ -43,28 +43,28 @@
 			</li>
 			<!-- END FRONTEND THEME LINKS -->
 			<li>
-				<a href="production">
+				<a href="{{url('production')}}">
 				<i class="icon-hourglass"></i>
 				<span class="title">รอผลิต</span>
 				<span class="arrow "></span>
 				</a>
 			</li>
 			<li>
-				<a href="alert">
+				<a href="{{url('alert')}}">
 				<i class="icon-bell"></i>
 				<span class="title">แจ้งเตือน</span>
 				<span class="arrow "></span>
 				</a>
 			</li>
 			<li>
-				<a href="report">
+				<a href="{{url('report')}}">
 				<i class="icon-notebook"></i>
 				<span class="title">รายงาน</span>
 				<span class="arrow "></span>
 				</a>
 			</li>
 			<li>
-				<a href="customer">
+				<a href="{{url('customer')}}">
 				<i class="icon-user"></i>
 				<span class="title">ลูกค้า</span>
 				<span class="arrow "></span>

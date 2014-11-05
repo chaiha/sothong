@@ -10,7 +10,7 @@ class WithdrawsController extends \BaseController {
 	 */
 	public function index()
 	{
-		//
+		return View::make('withdraws.index');
 	}
 
 	/**

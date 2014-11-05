@@ -21,7 +21,7 @@ class StocksController extends \BaseController {
 	 */
 	public function create()
 	{
-		//
+		return View::make('stocks.create');
 	}
 
 	/**
