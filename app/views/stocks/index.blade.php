@@ -195,16 +195,16 @@
 												<thead>
 												<tr>
 													<th>
-														 Product
+														 ชนิดสินค้า
 													</th>
 													<th>
-														 Item Status
+														 ชื่อสินค้า
 													</th>
 													<th>
-														 Original Price
+														 จำนวน
 													</th>
 													<th>
-														 Price
+														 ราคา/หน่วย
 													</th>
 													<th>
 														 Quantity
